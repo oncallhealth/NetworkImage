@@ -7,7 +7,7 @@ let package = Package(
     name: "NetworkImage",
     platforms: [
         .macOS(.v10_12),
-        .iOS(.v11),
+        .iOS(.v12),
         .tvOS(.v11),
         .watchOS(.v3),
     ],
@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "NetworkImage", targets: ["NetworkImage"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "0.5.0"),
+        .package(url: "https://github.com/DomenicBianchi01/combine-schedulers", .branch("db/test")),
         .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "0.1.0"),
         .package(
             name: "SnapshotTesting",

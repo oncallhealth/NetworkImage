@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "combine-schedulers",
-        "repositoryURL": "https://github.com/pointfreeco/combine-schedulers",
+        "repositoryURL": "https://github.com/DomenicBianchi01/combine-schedulers",
         "state": {
-          "branch": null,
-          "revision": "c37e5ae8012fb654af776cc556ff8ae64398c841",
-          "version": "0.5.0"
+          "branch": "db/test",
+          "revision": "621ecd10781d44b3e7851cb8e5bf72dab91cd1bf",
+          "version": null
         }
       },
       {
