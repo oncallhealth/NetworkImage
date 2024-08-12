@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 14, *)
 final class NetworkImageModel: ObservableObject {
   struct Environment {
     let transaction: Transaction
