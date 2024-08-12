@@ -71,6 +71,7 @@ import SwiftUI
 /// .background(Color.secondary.opacity(0.25))
 /// .clipped()
 /// ```
+@available(iOS 14, *)
 public struct NetworkImage<Content>: View where Content: View {
   @Environment(\.networkImageLoader) private var imageLoader
   @StateObject private var model = NetworkImageModel()
