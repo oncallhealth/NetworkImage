@@ -3,6 +3,7 @@ import Foundation
 import ImageIO
 
 /// A type that loads and caches images.
+@available(iOS 14, *)
 public protocol NetworkImageLoader: AnyObject, Sendable {
   /// Loads and returns the image from a given URL.
   func image(from url: URL) async throws -> CGImage
