@@ -1,5 +1,6 @@
 import Foundation
 
+@available(iOS 14, *)
 extension URLSession {
   /// Returns a `URLSession` optimized for image downloading.
   ///

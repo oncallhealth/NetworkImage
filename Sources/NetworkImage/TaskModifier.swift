@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 14, *)
 struct TaskModifier<T: Equatable>: ViewModifier {
   private let id: T
   private let priority: TaskPriority
